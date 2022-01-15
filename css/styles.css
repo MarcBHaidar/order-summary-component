@@ -1,0 +1,108 @@
+
+body{
+  margin: 120px auto;
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: small;
+  font-weight: bolder;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+@media all and (max-width: 500px){
+  body{
+    background-image: none;
+    background-color: hsl(225, 100%, 94%);
+  }
+  .main{
+    min-width: 25em;
+  }
+  .middle-container{
+    min-width: 10em;
+    max-width: 30em;
+  }
+}
+p{
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+h1{
+  margin: 10px auto;
+}
+.main{
+  width: 35%;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.paragraph{
+  width: 80%;
+  margin: auto;
+}
+.hero-img{
+  border-radius: 8px 8px 0 0;
+    width: 100%;
+}
+.music-icon{
+  margin: auto 20px;
+}
+.top-container{
+  padding: 20px;
+}
+.middle-container{
+  background-color: hsl(225, 100%, 98%);
+  margin: auto;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.plan{
+  height: 100px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.change{
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  margin: auto 20px;
+  opacity: 1;
+}
+div:hover .change{
+  cursor: grab;
+  opacity: 0.5;
+}
+.payement{
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 8px;
+  width: 80%;
+  margin: 30px auto 10px auto;
+}
+div:hover .payement{
+  cursor: grab;
+  opacity: 0.5;
+
+}
+.text{
+  color: white;
+}
+.h3{
+  margin: 25px 0 5px 5px;
+}
+.year{
+margin: 0 0 10px 5px;
+}
+.cancel{
+  margin: 0 auto 10px auto;
+}
+div:hover .order{
+  cursor: grab;
+  color: hsl(223, 47%, 23%);
+}
